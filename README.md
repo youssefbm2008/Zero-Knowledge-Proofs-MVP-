@@ -4,21 +4,51 @@ This repository is for the project of building a zero-knowledge sdk
 
 ## Problem Statement
 
-Recent break-throughs allow the use of zero-knowledge proofs in real-world applications. Such proofs have the potential to assert a computation while keeping the statement hidden. However, zero-knowledge proofs are currently not widely utilised because there is no simple interface which allows non-expert security software developers to use these assertions in their applications.
+> Recent break-throughs allow the use of zero-knowledge proofs in real-world applications. Such proofs can assert the correctness of a computation while keeping the data hidden. Yet, zero-knowledge proofs are _currently_ not widely utilised because there exists no simple interface which allows non-expert (security) software developers to utilise these assertions in their applications.
   
 ## Solution
 
-We develop a simple interface that allows any non-expert software developer to include assertions of zero-knowledge 
+> We develop a simple interface that allows any non-expert software developer to include assertions of zero-knowledge in their applications. As such, this interface allows to connect to existing ZK libraries without *any* cryptographic / security knowledge. 
 
-
- We develop a simple, easy-to-use API/SDK that allows a software developer to include zero-knowledge proofs in their applications. 
+~~We develop a simple, easy-to-use API/SDK that allows a software developer to include zero-knowledge proofs in their applications.~~
  
  ### What exactly do we want to build?
+ 
+ API, SDK, Libraries, Products
+ 
  #### Short Term - MVP
+
+  API --- interface to existing libraries
+ 
+ ##### Features
+  * Support of a small range of programming languages
+      - C, C++, Go
+  * Utilising existing ZK libraries
+  * Restricted set of operations ('specialised') 
+  * Non-optimised
+  * Non-production code ('proof of concept') 
+ 
  ##### Market Monopolisation
+   * Security Professionals
+   * Blockchain
  
  #### Long Term
  
+  SDK --- software development kits 
+ 
+  ##### Features
+   * Support of a wide range of programming languages
+   * Building our own ZK libraries
+   * 'universal' computations
+   * Highly optimised
+   * Secure software programming 
+     - certified, standardised
+     - side-channel security
+     - secure under sql injections, buffer overflows, path traveral attacks, integer overflow attacks, ...
+ 
+  ##### Market Monopolisation
+   * Any software programmer
+   * Any software field/area
 
 ## One Liners
 
@@ -26,7 +56,9 @@ We develop a simple interface that allows any non-expert software developer to i
   * Zero. Knowledge. Proofs. We turned the impossible into something super simple.
   * Zero-Knowledge Proofs --- Now, super simple
   * Zero-Knowledge Proofs --- Complex? Now, super simple!
-
+  
+## Customer Development
+  
 ## License 
 
 Learning result: software developers (security minded) want to see the code they are working on
