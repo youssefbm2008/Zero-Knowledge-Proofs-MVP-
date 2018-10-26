@@ -4,14 +4,21 @@ This repository is for the project of building a zero-knowledge sdk
 
 ## Problem Statement
 
-> Recent break-throughs allow the use of zero-knowledge proofs in real-world applications. Such proofs can assert the correctness of a computation while keeping the data hidden. Yet, zero-knowledge proofs are _currently_ not widely utilised because there exists no simple interface which allows non-expert (security) software developers to utilise these assertions in their applications.
+> Recent break-throughs allow the use of zero-knowledge proofs to protect sensitive data and therefore mitigate multiple security risks. They are not widely utilised because there exists no simple interface which allows non-expert software developers to utilise these assertions in their applications.
+
+~~Recent break-throughs allow the use of zero-knowledge proofs in real-world applications. Such proofs can assert the correctness of a computation while keeping the data hidden. Yet, zero-knowledge proofs are _currently_ not widely utilised because there exists no simple interface which allows non-expert (security) software developers to utilise these assertions in their applications.~~
   
 ## Solution
 
-> We develop a simple interface that allows any non-expert software developer to include assertions of zero-knowledge in their applications. As such, this interface allows to connect to existing ZK libraries without *any* cryptographic / security knowledge. 
+> We develop a simple and universal interface that allows any non-expert software developer to include assertions of zero-knowledge in their applications. This interface allows interchangeable access to our highly optimised ZK libraries as well as existing libraries.
+
+~~We develop a simple interface that allows any non-expert software developer to include assertions of zero-knowledge in their applications. As such, this interface allows the connection to existing ZK libraries without *any* cryptographic / security knowledge.~~ 
 
 ~~We develop a simple, easy-to-use API/SDK that allows a software developer to include zero-knowledge proofs in their applications.~~
- 
+
+'simple' --> Use without expert knowledge
+'universal' --> Support of wide range of programming lanuages
+
  ### What exactly do we want to build?
  
  API, SDK, Libraries, Products
