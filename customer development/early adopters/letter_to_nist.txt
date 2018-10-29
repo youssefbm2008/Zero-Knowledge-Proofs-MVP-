@@ -1,0 +1,12 @@
+Dave Archer, Research Lead, Galois Inc., USA,
+Dan Bogdanov, R&D Team Lead, Cybernetica, Estonia,
+Philip Bond, Chief Cryptographer, SETL, United Kingdom,
+Joppe Bos, Cryptographer, NXP Semiconductors, Belgium
+Jan Camenisch, Principal Research Staff Member, IBM, Switzerland,
+George French, VP Security Architecture and Engineering, Barclays Bank, United Kingdom,
+Florian Kerschbaum, Chief Research Expert, SAP, Germany,
+Kristen Lauter, Principal Researcher and Research Manager, Microsoft, USA,
+Kurt Nielsen, CEO, Partisia, Denmark,
+Jakob Illeborg Pagter, CTO, Sepior, Denmark,
+Guy Peer, CTO, Dyadic Security, Israel,
+Mike Scott, Chief Cryptographer, Miracl, United Kingdom
