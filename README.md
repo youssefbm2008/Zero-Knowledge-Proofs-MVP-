@@ -65,8 +65,11 @@ This repository is for the project of building a zero-knowledge sdk
   * Zero-Knowledge Proofs --- Complex? Now, super simple!
   
 ## Customer Development
+
+### Usecases
+
   
-## License 
+### License 
 
 Learning result: software developers (security minded) want to see the code they are working on
 
